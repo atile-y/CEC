@@ -1,0 +1,99 @@
+/*
+Copyright (C) 2016 Alejandro Alberto Yescas Benítez
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
+*/
+/* 
+    Created on : 10/06/2016, 09:47:00 PM
+    Author     : Alejandro Alberto Yescas Benítez
+*/
+
+#menu {
+    width: 250px;
+    position: fixed;
+    z-index: 999;
+}
+
+#menu-cursos {
+    background-color: #2880FF;
+    padding: 10px;
+    border-radius: 15px 15px 0px 0px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#no-cursos {
+    background-color: #FFFFFF;
+    padding: 30px 10px 30px 10px;
+    text-align: center;
+}
+
+#cursos {
+    background-color: #FFFFFF;
+    padding: 10px;
+}
+
+#cursos > p {
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#cursos > p:hover {
+    background-color: #B8D4FF;
+}
+
+#cursos > p.curso-selected {
+    background-color: #70AAFF;
+}
+
+#acciones {
+    height: 25px;
+    background-color: #FFFFFF;
+    border-top: 2px #E6E6E6 solid;
+    border-radius: 0px 0px 15px 15px;
+    padding: 10px 40px 10px 10px;
+}
+
+#acciones > li {
+    width: 75px;
+}
+
+#agregar-curso {
+    display: none;
+    background-color: #FFFFFF;
+    border-top: 2px #E6E6E6 solid;
+    border-radius: 0px 0px 15px 15px;
+    padding: 10px 40px 10px 10px;
+}
+
+#input-curso {
+    width: 226px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+#aceptar-curso, #cancelar-curso {
+    width: 75px;
+}
+
+#content {
+    background-color: #FFFFFF;
+    width: 660px;
+    min-height: 500px;
+    margin-left: 260px;
+    padding: 20px;
+    border-radius: 15px;
+}

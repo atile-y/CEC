@@ -1,0 +1,107 @@
+/*
+Copyright (C) 2016 Alejandro Alberto Yescas Benítez
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
+*/
+/* 
+    Created on : 10/06/2016, 07:58:08 PM
+    Author     : Alejandro Alberto Yescas Benítez
+*/
+
+body {
+    background-color: #F1F1F1;
+    font-family: sans-serif;
+    cursor: default;
+}
+
+#header {
+    background-color: #FFFFFF;
+    height: 50px;
+    width: 100%;
+    border-bottom: 1px #E6E6E6 solid;
+    position: fixed;
+    top: 0px;
+    z-index: 999;
+}
+
+#header > div {
+    width: 960px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logout {
+    display: inline-block;
+    float: right;
+    width: 32px;
+    height: 32px;
+    margin: 9px 9px 9px 19px;
+}
+
+#logout > img {
+    cursor: pointer;
+}
+
+#name {
+    display: inline-block;
+    float: right;
+    line-height: 30px;
+    margin: 10px 100px 10px 10px;
+    font-weight: bold;
+}
+
+#container {
+    width: 960px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+    float: right;
+    display: inline-block;
+    margin-left: 20px;
+    border-radius: 5px;
+    background-color: #70AAFF;
+    width: 100px;
+    height: 25px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.button:hover {
+    background-color: #2880FF;
+    color: #F1F1F1;
+    cursor: pointer;
+}
+
+.center {
+    text-align: center;
+}
+
+div.clear {
+    clear: both;
+}
+
+#content a {
+    color: #0077CC;
+}
+
+#content a:hover {
+    color: #33AAFF;
+}

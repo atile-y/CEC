@@ -1,0 +1,14 @@
+com\isw\cec\DBManager\Reader.class
+com\isw\cec\DataWeb\Coordinador.class
+com\isw\cec\DataWeb\Curso.class
+com\isw\cec\DataWeb\Persona.class
+com\isw\cec\DBManager\Writer.class
+com\isw\cec\DataWeb\Curso$Estado.class
+com\isw\cec\DataWeb\Asistente.class
+com\isw\cec\DBManager\Connector.class
+com\isw\cec\Servlet\GuardarCursoServlet.class
+com\isw\cec\DataWeb\Alumno$Tipo.class
+com\isw\cec\DataWeb\Alumno.class
+com\isw\cec\DataWeb\Grupo.class
+com\isw\cec\Servlet\GenerarFoliosServlet.class
+com\isw\cec\DataWeb\Instructor.class
